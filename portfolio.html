@@ -21,37 +21,33 @@
     <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
+    <!---------------HEADER----------------- -->
     <header class="header">
       <div class="container header-container">
         <nav class="nav">
-          <a class="logo link" href="./index.html"
-            ><span class="logo-accent">Web</span>Studio</a
-          >
+          <a class="logo link" href="./index.html"><span class="logo__accent">Web</span>Studio</a>
           <ul class="nav-list list link">
-            <li class="header-item">
-              <a class="nav-link link" href="./index.html"> Студия </a>
+            <li class="nav-list__item">
+              <a class="nav-list__link  link" href="./index.html"> Студия </a>
             </li>
-            <li class="header-item">
-              <a class="nav-link current link" href="./portfolio.html">
-                Портфолио
-              </a>
+            <li class="nav-list__item">
+              <a class="nav-list__link current link" href="./portfolio.html"> Портфолио </a>
             </li>
-            <li class="header-item">
-              <a class="nav-link link" href="Контакты"> Контакты </a>
+            <li class="nav-list__item">
+              <a class="nav-list__link link" href="Контакты"> Контакты </a>
             </li>
           </ul>
         </nav>
         <ul class="header-list list link">
-          <li class="header-item-mail">
+          <li class="header-list__item-mail">
             <a class="header-mail link" href="mailto:info@devstudio.com">
-              <svg class="icon-header-mail" width="16" height="12">
+              <svg class="header-mail__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>info@devstudio.com</a>
           </li>
-          <li class="header-item-tel">
-        
+          <li class="header-list__item-tel">
             <a class="header-tel link" href="tel:+380961111111">
-              <svg class="icon-header-tel" width="10" height="16">
+              <svg class="header-tel__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>+38 096 111 11 11</a>
           </li>
@@ -63,153 +59,154 @@
       <section class="projects section">
         <div class="container filter">
           <h1></h1>
+          <!-- --FILTER-- -->
           <ul class="filter-list list">
-            <li class="filter-list-item">
-              <button class="button-filter" type="button">Все</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">Все</button>
             </li>
-            <li class="filter-list-item">
-              <button class="button-filter" type="button">Веб-сайты</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">Веб-сайты</button>
             </li>
-            <li class="filter-list-item">
-              <button class="button-filter" type="button">Приложения</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">Приложения</button>
             </li>
-            <li class="filter-list-item">
-              <button class="button-filter" type="button">Дизайн</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">Дизайн</button>
             </li>
-            <li class="filter-list-item">
-              <button class="button-filter" type="button">Маркетинг</button>
+            <li class="filter-list__item">
+              <button class="filter-list__button" type="button">Маркетинг</button>
             </li>
           </ul>
 
           <!-- -------PROJECTS----- -->
-          <h2 class="projects-title"></h2>
+          <h2 class="projects__title"></h2>
           <ul class="projects-list list">
-            <li class="projects-item">
-              <a class="projects-item-link link" href="">
-                <div class="projects-item-wrap">
+            <li class="projects-list__item">
+              <a class="projects-list__link link" href="">
+                <div class="projects-list__item-wrap">
                   <img
                     src="./portfolio/pr1.jpg"
                     alt="ноутбук с изображением членов команды"
                   />
-                  <p class="projects-top-text" >Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+                  <p class="projects-list__top-text" >Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
                   </p>
                 </div>
 
-              <div class="projects-item-content">
-                <h3 class="projects-subtitle">Технокряк</h3>
-                <p class="projects-text">Веб-сайт</p>
+              <div class="projects-list__content">
+                <h3 class="projects-list__subtitle">Технокряк</h3>
+                <p class="projects-list__text">Веб-сайт</p>
               </div>
               </a>
             </li>
 
-            <li class="projects-item">
-              <a class="projects-item-link link" href="">
-                <div class="projects-item-wrap">
+            <li class="projects-list__item">
+              <a class="projects-list__link link" href="">
+                <div class="projects-list__item-wrap">
               <img
                 src="./portfolio/pr2.jpg"
                 alt="два баскетболиста борются за мяч"
               />
-              <p class="projects-top-text"></p>
+              <p class="projects-list__top-text"></p>
             </div>
-              <div class="projects-item-content">
-                <h3 class="projects-subtitle">
+              <div class="projects-list__content">
+                <h3 class="projects-list__subtitle">
                   Постер New Orlean vs Golden Star
                 </h3>
-                <p class="projects-text">Дизайн</p>
+                <p class="projects-list__text">Дизайн</p>
               </div></a>
             </li>
 
-            <li class="projects-item">
-              <a class="projects-item-link link" href="">
-                <div class="projects-item-wrap">
+            <li class="projects-list__item">
+              <a class="projects-list__link link" href="">
+                <div class="projects-list__item-wrap">
               <img
                 src="./portfolio/pr3.jpg"
                 alt="лого ресторана с изобржением рыбы"
               />
-              <p class="projects-top-text"></p>
+              <p class="projects-list__top-text"></p>
               </div>
-              <div class="projects-item-content">
-                <h3 class="projects-subtitle">Ресторан Seafood</h3>
-                <p class="projects-text">Приложение</p>
+              <div class="projects-list__content">
+                <h3 class="projects-list__subtitle">Ресторан Seafood</h3>
+                <p class="projects-list__text">Приложение</p>
               </div></a>
             </li>
 
-            <li class="projects-item">
-              <a class="projects-item-link link" href="">
-                <div class="projects-item-wrap">
+            <li class="projects-list__item">
+              <a class="projects-list__link link" href="">
+                <div class="projects-list__item-wrap">
               <img src="./portfolio/pr4.jpg" alt="черные студийные наушники" />
-              <p class="projects-top-text"></p>
+              <p class="projects-list__top-text"></p>
             </div>
-              <div class="projects-item-content">
-                <h3 class="projects-subtitle">Проект Prime</h3>
-                <p class="projects-text">Маркетинг</p>
+              <div class="projects-list__content">
+                <h3 class="projects-list__subtitle">Проект Prime</h3>
+                <p class="projects-list__text">Маркетинг</p>
               </div></a>
             </li>
 
-            <li class="projects-item">
-              <a class="projects-item-link link" href="">
-                <div class="projects-item-wrap">
+            <li class="projects-list__item">
+              <a class="projects-list__link link" href="">
+                <div class="projects-list__item-wrap">
               <img src="./portfolio/pr5.jpg" alt="две коробки" />
-                  <p class="projects-top-text"></p>
+                  <p class="projects-list__top-text"></p>
             </div>
-              <div class="projects-item-content">
-                <h3 class="projects-subtitle">Проект Boxes</h3>
-                <p class="projects-text">Приложение</p>
+              <div class="projects-list__content">
+                <h3 class="projects-list__subtitle">Проект Boxes</h3>
+                <p class="projects-list__text">Приложение</p>
               </div></a>
             </li>
 
-            <li class="projects-item">
-              <a class="projects-item-link link" href="">
-                <div class="projects-item-wrap">
+            <li class="projects-list__item">
+              <a class="projects-list__link link" href="">
+                <div class="projects-list__item-wrap">
               <img src="./portfolio/pr6.jpg" alt="монитор с показаным сайтом" />
-              <p class="projects-top-text"></p>
+              <p class="projects-list__top-text"></p>
             </div>
-              <div class="projects-item-content">
-                <h3 class="projects-subtitle">Inspiration has no Borders</h3>
-                <p class="projects-text">Веб-сайт</p>
+              <div class="projects-list__content">
+                <h3 class="projects-list__subtitle">Inspiration has no Borders</h3>
+                <p class="projects-list__text">Веб-сайт</p>
               </div></a>
             </li>
 
-            <li class="projects-item">
-              <a class="projects-item-link link" href="">
-                <div class="projects-item-wrap">
+            <li class="projects-list__item">
+              <a class="projects-list__link link" href="">
+                <div class="projects-list__item-wrap">
               <img
                 src="./portfolio/pr7.jpg"
                 alt="открытая книга с названием издания"
               />
-              <p class="projects-top-text"></p>
+              <p class="projects-list__top-text"></p>
             </div>
-              <div class="projects-item-content">
-                <h3 class="projects-subtitle">Издание Limited Edition</h3>
-                <p class="projects-text">Дизайн</p>
+              <div class="projects-list__content">
+                <h3 class="projects-list__subtitle">Издание Limited Edition</h3>
+                <p class="projects-list__text">Дизайн</p>
               </div></a>
             </li>
 
-            <li class="projects-item">
-              <a class="projects-item-link link" href="">
-                <div class="projects-item-wrap">
+            <li class="projects-list__item">
+              <a class="projects-list__link link" href="">
+                <div class="projects-list__item-wrap">
               <img src="./portfolio/pr8.jpg" alt="бирка проэкта"/>
-              <p class="projects-top-text"></p>
+              <p class="projects-list__top-text"></p>
             </div>
-              <div class="projects-item-content">
-                <h3 class="projects-subtitle">Проект LAB</h3>
-                <p class="projects-text">Маркетинг</p>
+              <div class="projects-list__content">
+                <h3 class="projects-list__subtitle">Проект LAB</h3>
+                <p class="projects-list__text">Маркетинг</p>
               </div></a>
             </li>
 
-            <li class="projects-item">
-              <a class="projects-item-link link" href="">
-                <div class="projects-item-wrap">
+            <li class="projects-list__item">
+              <a class="projects-list__link link" href="">
+                <div class="projects-list__item-wrap">
               <img
                 src="./portfolio/pr9.jpg"
                 alt="ноутбук с загруженым прилоением на экранеи "
               />
-              <p class="projects-top-text"></p>
+              <p class="projects-list__top-text"></p>
             </div>
-              <div class="projects-item-content">
-                <h3 class="projects-subtitle">Growing Business</h3>
-                <p class="projects-text">Приложение</p>
+              <div class="projects-list__content">
+                <h3 class="projects-list__subtitle">Growing Business</h3>
+                <p class="projects-list__text">Приложение</p>
               </div></a>
             </li>
 

@@ -1,13 +1,13 @@
-.benefits-list {
+.benefits__list {
   display: flex;
   margin-right: -30px;
 }
-.benefits-item {
+.benefits__item {
   min-width: 270px;
   margin-right: 30px;
 }
 
-.icon-benefits {
+.benefits__icon {
   /* width: 270px; */
   height: 120px;
   background: #f5f4fa;
@@ -19,7 +19,7 @@
   /* padding: 25px 100px 25px 100px; */
 }
 
-.benefits-subtitle {
+.benefits__subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -28,7 +28,7 @@
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
-.benefits-text {
+.benefits__text {
   /* font-weight: 400; */
   font-size: 14px;
   line-height: 1.71;

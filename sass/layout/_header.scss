@@ -26,18 +26,14 @@
   color: var(--logo-main-color);
   margin-right: 93px;
 }
-.logo-accent {
+.logo__accent {
   color: var(--accent-color);
 }
 .nav-list {
   display: flex;
 }
-.header-list {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-.header-item {
+
+.nav-list__item {
   /* margin-top: 10px; */
   margin-right: 50px;
   /* margin-bottom: 10px; */
@@ -46,12 +42,11 @@
   }
 }
 
-.nav-link {
+.nav-list__link {
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
+
   &:hover,
   &:focus {
     color: var(--accent-color);
@@ -72,11 +67,10 @@
 }
 
 /* ----TEL-MAIL---- */
-
-.icon-header-tel,
-.icon-header-mail {
-  margin-right: 10px;
-  fill: currentColor;
+.header-list {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .header-tel {
@@ -106,4 +100,9 @@
   &:focus {
     color: var(--accent-color);
   }
+}
+.header-tel__icon,
+.header-mail__icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
